@@ -512,6 +512,43 @@
             padding: 1.5rem;
         }
 
+        /* Bottom Ad Section */
+        .bottom-ad-section {
+            margin: 3rem 0;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .bottom-ad-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .bottom-ad-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+            font-weight: 600;
+        }
+
+        .bottom-ad-unit {
+            width: 100%;
+            min-height: 150px;
+            background: linear-gradient(135deg, #f1f3f9, #e8ebf5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--gray);
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px dashed var(--light-gray);
+            padding: 2rem;
+            margin: 0 auto;
+        }
+
         .info-box {
             background: white;
             border-radius: var(--radius);
@@ -715,6 +752,14 @@
                 width: 100%;
                 justify-content: center;
             }
+
+            .bottom-ad-section {
+                padding: 1.5rem;
+            }
+
+            .bottom-ad-title {
+                font-size: 1.3rem;
+            }
         }
 
         @media (max-width: 576px) {
@@ -904,11 +949,11 @@
                 <div class="ad-unit">
                     <!-- Google AdSense Ad Unit -->
                     <!-- Replace with your AdSense code -->
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-app-pub-2270756130888727/9505287712
                             crossorigin="anonymous"></script>
                     <ins class="adsbygoogle"
                          style="display:block"
-                         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                         data-ad-client="ca-app-pub-2270756130888727/9505287712
                          data-ad-slot="XXXXXXXXXX"
                          data-ad-format="auto"
                          data-full-width-responsive="true"></ins>
@@ -938,6 +983,29 @@
                 </div>
             </div>
         </aside>
+    </div>
+
+    <!-- Bottom Ad Section -->
+    <div class="container">
+        <section class="bottom-ad-section">
+            <div class="bottom-ad-container">
+                <h3 class="bottom-ad-title">Sponsored Content</h3>
+                <div class="bottom-ad-unit">
+                    <!-- Bottom Ad Unit -->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-app-pub-2270756130888727/8021202694
+                            crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-format="fluid"
+                         data-ad-layout-key="-fb+5w+4e-db+86"
+                         data-ad-client="ca-app-pub-2270756130888727/8021202694
+                         data-ad-slot="YYYYYYYYYY"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer>
